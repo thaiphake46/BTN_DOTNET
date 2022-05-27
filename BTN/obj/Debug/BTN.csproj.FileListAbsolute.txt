@@ -1,0 +1,16 @@
+E:\N2_K2\dotNet\VD\BTN\BTN\bin\Debug\BTN.exe.config
+E:\N2_K2\dotNet\VD\BTN\BTN\bin\Debug\BTN.exe
+E:\N2_K2\dotNet\VD\BTN\BTN\bin\Debug\BTN.pdb
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.csproj.AssemblyReference.cache
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.csproj.SuggestedBindingRedirects.cache
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\MainWindow.g.cs
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\App.g.cs
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN_MarkupCompile.cache
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN_MarkupCompile.lref
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\MainWindow.baml
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.g.resources
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.Properties.Resources.resources
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.csproj.GenerateResource.cache
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.csproj.CoreCompileInputs.cache
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.exe
+E:\N2_K2\dotNet\VD\BTN\BTN\obj\Debug\BTN.pdb
