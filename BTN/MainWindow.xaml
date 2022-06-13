@@ -30,31 +30,32 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <DataGrid x:Name="datagrid" Grid.Column="1" Margin="12"/>
+            <DataGrid x:Name="datagrid" Grid.Column="1" Grid.ColumnSpan="2" Margin="12"/>
             <Grid Grid.Row="0" Margin="12">
                 <Label Content="Điều:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="18"/>
-                <TextBox x:Name="dieu_txt" HorizontalAlignment="Left" Margin="174,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Height="32" FontSize="18"/>
+                <TextBox x:Name="dieu_txt" HorizontalAlignment="Center" Margin="0,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Height="32" FontSize="18"/>
 
-                <Label HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Content="Nội dung điều:" FontSize="18"/>
-                <TextBox x:Name="noiDungDieu_txt" HorizontalAlignment="Left" Margin="174,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Height="32" FontSize="18"/>
+                <Label HorizontalAlignment="Left" Margin="11,81,0,0" VerticalAlignment="Top" Content="Nội dung điều:" FontSize="18"/>
+                <TextBox x:Name="noiDungDieu_txt" HorizontalAlignment="Center" Margin="0,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Height="32" FontSize="18"/>
 
-                <Label Content="Khoản:" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" FontSize="18"/>
-                <TextBox x:Name="khoan_txt" HorizontalAlignment="Left" Margin="174,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Height="32" FontSize="18"/>
+                <Label Content="Khoản:" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" FontSize="18"/>
+                <TextBox x:Name="khoan_txt" HorizontalAlignment="Center" Margin="0,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Height="32" FontSize="18"/>
 
-                <Label Content="Nội dung khoản:" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top" FontSize="18"/>
-                <TextBox x:Name="noiDungKhoan_txt" HorizontalAlignment="Left" Margin="174,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Height="32" RenderTransformOrigin="-1.008,-1.78" FontSize="18"/>
+                <Label Content="Nội dung khoản:" HorizontalAlignment="Left" Margin="10,223,0,0" VerticalAlignment="Top" FontSize="18"/>
+                <TextBox x:Name="noiDungKhoan_txt" HorizontalAlignment="Center" Margin="0,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Height="32" RenderTransformOrigin="-1.008,-1.78" FontSize="18"/>
 
-                <Label Content="Mức phạt dưới:" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" FontSize="18"/>
-                <TextBox x:Name="mucPhatDuoi_txt" HorizontalAlignment="Left" Margin="174,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Height="32" FontSize="18"/>
+                <Label Content="Mức phạt dưới:" HorizontalAlignment="Left" Margin="11,0,0,0" VerticalAlignment="Center" FontSize="18"/>
+                <TextBox x:Name="mucPhatDuoi_txt" HorizontalAlignment="Center" Margin="0,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Height="32" FontSize="18"/>
 
-                <Label Content="Mức phạt trên:" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" FontSize="18"/>
-                <TextBox x:Name="mucPhatTren_txt" HorizontalAlignment="Left" Margin="174,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Height="32" FontSize="18"/>
+                <Label Content="Mức phạt trên:" HorizontalAlignment="Left" Margin="10,366,0,0" VerticalAlignment="Top" FontSize="18"/>
+                <TextBox x:Name="mucPhatTren_txt" HorizontalAlignment="Left" Margin="11,400,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Height="32" FontSize="18"/>
 
-                <Button x:Name="loadData_btn" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Content="Tải dữ liệu" FontSize="24" Width="143" RenderTransformOrigin="0.104,0.335" Click="loadData_btn_Click"/>
-                <Button x:Name="timKiem_btn" Content="Tìm kiếm" HorizontalAlignment="Center" Margin="0,312,0,0" VerticalAlignment="Top" FontSize="24" Width="144" Click="timKiem_btn_Click"/>
-                <Button x:Name="refresh_btn" Content="Refresh" HorizontalAlignment="Left" Margin="463,312,0,0" VerticalAlignment="Top" Width="143" FontSize="24" Click="refresh_btn_Click"/>
+                <Button x:Name="loadData_btn" HorizontalAlignment="Left" Margin="10,437,0,0" VerticalAlignment="Top" Content="Tải dữ liệu" FontSize="24" Width="143" RenderTransformOrigin="0.104,0.335" Click="loadData_btn_Click"/>
+                <Button x:Name="timKiem_btn" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="9,478,0,0" VerticalAlignment="Top" FontSize="24" Width="144" Click="timKiem_btn_Click"/>
+                <Button x:Name="refresh_btn" Content="Refresh" HorizontalAlignment="Left" Margin="10,519,0,0" VerticalAlignment="Top" Width="142" FontSize="24" Click="refresh_btn_Click"/>
             </Grid>
         </Grid>
     </Grid>
