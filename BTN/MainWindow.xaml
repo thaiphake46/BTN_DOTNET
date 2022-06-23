@@ -56,7 +56,7 @@
                 <Button x:Name="loadData_btn" HorizontalAlignment="Left" Margin="10,437,0,0" VerticalAlignment="Top" Content="Tải dữ liệu" FontSize="22" Width="187" RenderTransformOrigin="0.104,0.335" Click="loadData_btn_Click"/>
                 <Button x:Name="timKiem_btn" Content="Tìm kiếm" HorizontalAlignment="Left" Margin="201,437,0,0" VerticalAlignment="Top" FontSize="22" Width="193" Click="timKiem_btn_Click"/>
                 <Button x:Name="refresh_btn" Content="Refresh" HorizontalAlignment="Left" Margin="10,475,0,0" VerticalAlignment="Top" Width="187" FontSize="22" Click="refresh_btn_Click"/>
-                <Button Content="Liên hệ với luật sư" HorizontalAlignment="Left" Margin="202,475,0,0" VerticalAlignment="Top" Width="192" FontSize="22"/>
+                <Button x:Name="lienHeLS" Content="Liên hệ với luật sư" HorizontalAlignment="Left" Margin="202,475,0,0" VerticalAlignment="Top" Width="192" FontSize="22" Click="lienHeLS_Click"/>
                 <Label Content="Hotline hỗ trợ: 1800 xxxx" HorizontalAlignment="Center" Margin="0,527,0,0" VerticalAlignment="Top" Width="383" FontSize="16"/>
             </Grid>
         </Grid>

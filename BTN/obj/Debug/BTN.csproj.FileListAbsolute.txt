@@ -30,3 +30,5 @@ D:\workspace\BTN_DOTNET\BTN\obj\Debug\BTN.csproj.GenerateResource.cache
 D:\workspace\BTN_DOTNET\BTN\obj\Debug\BTN.csproj.CoreCompileInputs.cache
 D:\workspace\BTN_DOTNET\BTN\obj\Debug\BTN.exe
 D:\workspace\BTN_DOTNET\BTN\obj\Debug\BTN.pdb
+D:\workspace\BTN_DOTNET\BTN\obj\Debug\lienHe.g.cs
+D:\workspace\BTN_DOTNET\BTN\obj\Debug\lienHe.baml
